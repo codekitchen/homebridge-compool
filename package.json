@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-compool",
+  "version": "1.0.0",
+  "description": "Compool controller to Homebridge plugin",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codekitchen/homebridge-compool.git"
+  },
+  "keywords": [
+    "compool",
+    "homebridge-plugin"
+  ],
+  "author": "Brian Palmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codekitchen/homebridge-compool/issues"
+  },
+  "homepage": "https://github.com/codekitchen/homebridge-compool#readme",
+  "dependencies": {
+    "compool-controller": "~ 1.0"
+  },
+  "engines": {
+    "node": ">=8.0",
+    "homebridge": ">=0.2.0"
+  }
+}
