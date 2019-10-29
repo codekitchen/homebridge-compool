@@ -1,0 +1,33 @@
+{
+    "bridge": {
+        "name": "Pool Controller",
+        "username": "...",
+        "port": 51826,
+        "pin": "..."
+    },
+    "description": "Pool Controller",
+    "platforms": [
+        {
+            "platform": "CompoolController",
+            "name": "compool",
+            "devicePath": "/dev/ttyUSB0",
+            "spa": {
+                "pump": 1,
+                "aux": {
+                    "Jets": 4,
+                    "Lights": 5
+                }
+            },
+            "pool": {
+                "pump": 2,
+                "aux": {
+                    "Lights": 7
+                }
+            },
+            "aux": {
+                "Yard Lights": 6
+            }
+        }
+    ]
+}
+
